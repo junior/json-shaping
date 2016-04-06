@@ -1,2 +1,2 @@
-# node-json-shaping
+# json-shaping
 Node module to perform JSON shaping
