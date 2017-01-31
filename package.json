@@ -1,0 +1,35 @@
+{
+  "version": "0.10.5-dev",
+  "name": "json-shaping",
+  "description": "module to do JSON shaping using transformations",
+  "keywords": [
+    "json",
+    "shaping",
+    "transform",
+    "transformation"
+  ],
+  "homepage": "https://github.com/junior/json-shaping",
+  "author": {
+    "name": "Adao Junior"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junior/json-shaping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junior/json-shaping/issues"
+  },
+  "main": "./lib/shaping.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node test/",
+    "test2": "node_modules/jasmine-node/bin/jasmine-node test2/",
+    "test3": "node_modules/jasmine-node/bin/jasmine-node test3/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
