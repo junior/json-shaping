@@ -1,7 +1,7 @@
 {
   "version": "0.10.5-dev",
   "name": "json-shaping",
-  "description": "module to do JSON shaping using transformations",
+  "description": "Module to do JSON shaping using transformations",
   "keywords": [
     "json",
     "shaping",
@@ -24,12 +24,20 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "node_modules/jasmine-node/bin/jasmine-node test/",
-    "test2": "node_modules/jasmine-node/bin/jasmine-node test2/",
-    "test3": "node_modules/jasmine-node/bin/jasmine-node test3/"
+    "test": "npm run lint && npm run test-specs",
+    "test-list": "npm run lint-verbose && npm run test-verbose",
+    "lint": "eslint lib/*.js",
+    "lint-verbose": "eslint --debug lib/*.js",
+    "lint-html": "eslint lib/*.js -f html -o ./reports/lint-results.html",
+    "test-specs": "node_modules/jasmine-node/bin/jasmine-node test/",
+    "test-verbose": "node_modules/jasmine-node/bin/jasmine-node test/ --verbose"
   },
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "jasmine-node": "^1.14.5"
   }
 }
