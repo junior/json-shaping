@@ -1,5 +1,5 @@
 {
-  "version": "0.10.5-dev",
+  "version": "0.10.5",
   "name": "json-shaping",
   "description": "Module to do JSON shaping using transformations",
   "keywords": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/junior/json-shaping.git"
+    "url": "git@github.com:junior/json-shaping.git"
   },
   "bugs": {
     "url": "https://github.com/junior/json-shaping/issues"
