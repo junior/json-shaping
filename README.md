@@ -10,6 +10,8 @@ Simple [node](http://nodejs.org) module to perform JSON shaping
   
   [![NPM][nodei-image]][nodei-url]
 
+[![Actions Status](https://github.com/junior/json-shaping/workflows/Node.js%20Package/badge.svg)](https://github.com/junior/json-shaping/actions)
+
 [npm-image]: https://img.shields.io/npm/v/json-shaping.svg
 [npm-url]: https://npmjs.com/package/json-shaping
 [downloads-image]: https://img.shields.io/npm/dt/json-shaping.svg
